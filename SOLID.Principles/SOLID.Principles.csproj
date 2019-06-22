@@ -9,8 +9,12 @@
     <Compile Remove="Models\Rectangle.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Shapes\" />
-    <Folder Include="Operations\" />
-    <Folder Include="Interfaces\" />
+    <Folder Include="GeometricSample\" />
+    <Folder Include="GeometricSample\Interfaces\" />
+    <Folder Include="GeometricSample\Operations\" />
+    <Folder Include="GeometricSample\Shapes\" />
+    <Folder Include="MessengerSample\" />
+    <Folder Include="MessengerSample\Interfaces\" />
+    <Folder Include="MessengerSample\Operations\" />
   </ItemGroup>
 </Project>

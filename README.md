@@ -4,11 +4,11 @@ Practice about use of SOLID principles.
 
 # [S]ingle Responsability Principle (SRP)
 
-Every module/class should have only one reason to change. This means that every class or similar structure in the code should have only one job to do.
+A module/class should have only one reason to change. This means that every class or similar structure in the code should have only one job to do.
 
 # [O]pen / Close Principle (OCP)
 
-A module/class is open for extension and closed for midifications.
+A module/class is open for extension and closed for modifications.
 
 # [L]iskov Substitution Principle (LSP)
 
@@ -23,4 +23,7 @@ that clients should not be forced to implement interfaces they don't use. Instea
 this principle states that high-level modules/classes should not depend on low-level modules/classes. Both should depend upon abstractions. Secondly, abstractions should not depend upon details. Details should depend upon abstractions.
 
 REF:
+
 https://thatcsharpguy.com/posts/los-principios-solid/
+
+https://www.oscarblancarteblog.com/2018/08/15/principios-solid-patrones-diseno/

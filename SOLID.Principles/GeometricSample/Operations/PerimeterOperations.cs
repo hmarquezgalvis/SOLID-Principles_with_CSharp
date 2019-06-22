@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using SOLID.Principles.Interfaces;
-using SOLID.Principles.Shapes;
+using SOLID.Principles.GeometricSample.Interfaces;
+using SOLID.Principles.GeometricSample.Shapes;
 
-namespace SOLID.Principles.Operations
+namespace SOLID.Principles.GeometricSample.Operations
 {
     public class PerimeterOperations
     {

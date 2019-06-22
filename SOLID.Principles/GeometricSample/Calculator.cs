@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using SOLID.Principles.Interfaces;
-using SOLID.Principles.Operations;
-using SOLID.Principles.Shapes;
+using SOLID.Principles.GeometricSample.Interfaces;
+using SOLID.Principles.GeometricSample.Operations;
+using SOLID.Principles.GeometricSample.Shapes;
 
-namespace SOLID.Principles
+namespace SOLID.Principles.GeometricSample
 {
     public class Calculator
     {

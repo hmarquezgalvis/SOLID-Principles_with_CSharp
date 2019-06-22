@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using SOLID.Principles.Interfaces;
+using SOLID.Principles.GeometricSample.Interfaces;
 
-namespace SOLID.Principles.Shapes
+namespace SOLID.Principles.GeometricSample.Shapes
 {
     public class Rectangle : IGeometricShape
     {

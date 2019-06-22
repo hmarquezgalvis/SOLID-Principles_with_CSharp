@@ -1,7 +1,7 @@
 ﻿using System;
-using SOLID.Principles.Interfaces;
+using SOLID.Principles.GeometricSample.Interfaces;
 
-namespace SOLID.Principles.Shapes
+namespace SOLID.Principles.GeometricSample.Shapes
 {
     public class EquilateralTriangle : IGeometricShape
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace SOLID.Principles.Interfaces
+namespace SOLID.Principles.GeometricSample.Interfaces
 {
     public interface IGeometricShape
         : IHasArea, IHasPerimeter
