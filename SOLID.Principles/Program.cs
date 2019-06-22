@@ -6,6 +6,9 @@ using SOLID.Principles.GeometricSample.Interfaces;
 using SOLID.Principles.GeometricSample.Operations;
 using SOLID.Principles.GeometricSample.Shapes;
 using SOLID.Principles.MessengerSample;
+using SOLID.Principles.VehicleSample;
+using SOLID.Principles.VehicleSample.Extends;
+using SOLID.Principles.VehicleSample.Renders;
 
 namespace SOLID.Principles
 {
@@ -30,8 +33,6 @@ namespace SOLID.Principles
             Console.WriteLine($"Total Area: {calculator.TotalAreas}" +
                 $"\nTotal Perimeter: {calculator.TotalPerimeters}");
 
-            Console.ReadKey();
-
             var messageEmail = new Message { To = "hector@dominio.com", Subject = "Waiting News", Body = "Hi! I'm waiting for your response, dude!" };
             var messageSMS = new Message { To = "80010203040", Body = "Let me know if you want a coffee" };
             var messageChat = new Message { To = "user1234", Body = "Hi =)" };
@@ -40,6 +41,11 @@ namespace SOLID.Principles
             messenger.Send(messageEmail, MessengerSample.Operations.MessageSendTypeEnum.Email);
             messenger.Send(messageSMS, MessengerSample.Operations.MessageSendTypeEnum.SMS);
             messenger.Send(messageChat, MessengerSample.Operations.MessageSendTypeEnum.Chat);
+
+            var vehicle = new Truck();
+            VehicleRender.Draw(vehicle);
+
+            Console.ReadKey();
         }
     }
 }

@@ -7,6 +7,9 @@
 
   <ItemGroup>
     <Compile Remove="Models\Rectangle.cs" />
+    <Compile Remove="VehicleSample\Vehicle.cs" />
+    <Compile Remove="VehicleSample\Renders\VehiclePrint.cs" />
+    <Compile Remove="VehicleSample\Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GeometricSample\" />
@@ -16,5 +19,9 @@
     <Folder Include="MessengerSample\" />
     <Folder Include="MessengerSample\Interfaces\" />
     <Folder Include="MessengerSample\Operations\" />
+    <Folder Include="VehicleSample\" />
+    <Folder Include="VehicleSample\Renders\" />
+    <Folder Include="VehicleSample\Extends\" />
+    <Folder Include="VehicleSample\Interfaces\" />
   </ItemGroup>
 </Project>
