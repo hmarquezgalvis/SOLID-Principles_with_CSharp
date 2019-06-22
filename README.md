@@ -23,11 +23,10 @@ that clients should not be forced to implement interfaces they don't use. Instea
 this principle states that high-level modules/classes should not depend on low-level modules/classes. Both should depend upon abstractions. Secondly, abstractions should not depend upon details. Details should depend upon abstractions.
 
 REF:
-<<<<<<< HEAD
 
 https://thatcsharpguy.com/posts/los-principios-solid/
+
+https://devexperto.com/principio-responsabilidad-unica/
 
 https://www.oscarblancarteblog.com/2018/08/15/principios-solid-patrones-diseno/
-=======
-https://thatcsharpguy.com/posts/los-principios-solid/
->>>>>>> d8c510419b65db219546040eb5a44d4f89747b91
+
