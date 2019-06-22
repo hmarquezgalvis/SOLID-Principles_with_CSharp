@@ -1,7 +1,7 @@
 ﻿using System;
 using SOLID.Principles.VehicleSample.Interfaces;
 
-namespace SOLID.Principles.VehicleSample.Extends
+namespace SOLID.Principles.VehicleSample.Vehicles
 {
     public class Car
         : IVehicle

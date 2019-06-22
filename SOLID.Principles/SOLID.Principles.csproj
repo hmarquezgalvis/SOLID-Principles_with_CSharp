@@ -21,7 +21,11 @@
     <Folder Include="MessengerSample\Operations\" />
     <Folder Include="VehicleSample\" />
     <Folder Include="VehicleSample\Renders\" />
-    <Folder Include="VehicleSample\Extends\" />
+    <Folder Include="VehicleSample\Vehicles\" />
     <Folder Include="VehicleSample\Interfaces\" />
+    <Folder Include="ProductSample\" />
+    <Folder Include="ProductSample\Interfaces\" />
+    <Folder Include="ProductSample\Products\" />
+    <Folder Include="ProductSample\Operations\" />
   </ItemGroup>
 </Project>
