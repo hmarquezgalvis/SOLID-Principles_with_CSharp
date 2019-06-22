@@ -12,6 +12,9 @@ using SOLID.Principles.VehicleSample.Renders;
 using SOLID.Principles.ProductSample.Interfaces;
 using SOLID.Principles.ProductSample.Products;
 using SOLID.Principles.ProductSample.Operations;
+using SOLID.Principles.ShoppingSample;
+using SOLID.Principles.ShoppingSample.Persistences;
+using SOLID.Principles.ShoppingSample.PaymentMethod;
 
 namespace SOLID.Principles
 {
@@ -72,6 +75,19 @@ namespace SOLID.Principles
             {
                 Console.WriteLine($"{item.Name}");
             }
+
+            // SHOPPING SAMPLE
+
+            var shopping = new Shopping()
+            {
+                Title = "Demo",
+                Products = new List<string> { "Product 1", "Product 2", "Product 3" }
+            };
+
+            var persistence = new Server();
+            var paymentMethod = new CreditCard();
+            var basket = new Basket(persistence, paymentMethod);
+            basket.Buy(shopping);
 
             Console.ReadKey();
         }

@@ -27,5 +27,9 @@
     <Folder Include="ProductSample\Interfaces\" />
     <Folder Include="ProductSample\Products\" />
     <Folder Include="ProductSample\Operations\" />
+    <Folder Include="ShoppingSample\" />
+    <Folder Include="ShoppingSample\Interfaces\" />
+    <Folder Include="ShoppingSample\PaymentMethod\" />
+    <Folder Include="ShoppingSample\Persistences\" />
   </ItemGroup>
 </Project>

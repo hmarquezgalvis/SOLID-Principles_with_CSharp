@@ -19,7 +19,7 @@ namespace SOLID.Tests
 
             var result = messenger.Send(message, Principles.MessengerSample.Operations.MessageSendTypeEnum.Email);
 
-            Assert.Equal(true, result);
+            Assert.True(result);
         }
 
         [Fact]
@@ -33,8 +33,7 @@ namespace SOLID.Tests
             };
 
             var result = messenger.Send(message, Principles.MessengerSample.Operations.MessageSendTypeEnum.SMS);
-
-            Assert.Equal(true, result);
+            Assert.True(result);
         }
         [Fact]
         public void SendChat()
@@ -48,7 +47,7 @@ namespace SOLID.Tests
 
             var result = messenger.Send(message, Principles.MessengerSample.Operations.MessageSendTypeEnum.Chat);
 
-            Assert.Equal(true, result);
+            Assert.True(result);
         }
     }
 }
